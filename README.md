@@ -2,8 +2,6 @@
 
 A React demo site built around reusable components: a `Navbar` with routed pages (Home, About, Services, Contact) plus a `Card` component. A component-based-development exercise in React + React Router.
 
-![Demo](screenshots/demo.png)
-
 ## Features
 
 - **Navbar component** — site-wide navigation bar with links to every page
@@ -30,5 +28,5 @@ Then open the URL Vite prints (usually `http://localhost:5173`).
 
 ## Notes
 
-- **Honest layout note:** the flat files at the repo root do not run as-is — the root `index.html` points to `/src/main.jsx`, which does not exist at the root, and the root `App.jsx` imports from `./components/`, which is also not at the root. The working copy is the nested project under `component--main/`, and the screenshot above is from that copy.
+- **Honest layout note:** the flat files at the repo root do not run as-is — the root `index.html` points to `/src/main.jsx`, which does not exist at the root, and the root `App.jsx` imports from `./components/`, which is also not at the root. The working copy is the nested project under `component--main/`.
 - `App.js` at the root is a standalone login form that is not used — `main.jsx` imports `App.jsx`, so `App.js` is dead code.
