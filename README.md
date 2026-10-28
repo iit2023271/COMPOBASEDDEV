@@ -2,6 +2,10 @@
 
 A React demo site built around reusable components: a `Navbar` with routed pages (Home, About, Services, Contact) plus a `Card` component. A component-based-development exercise in React + React Router.
 
+## Screenshot
+
+![Demo](screenshots/demo.png)
+
 ## Features
 
 - **Navbar component** — site-wide navigation bar with links to every page
